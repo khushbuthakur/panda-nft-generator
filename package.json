@@ -1,0 +1,14 @@
+{
+  "name": "cryptopanda_clone",
+  "version": "1.0.0",
+  "description": "This is to help you generate all the panda nft images",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  }
+}
