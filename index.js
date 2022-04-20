@@ -128,8 +128,8 @@ const drawImage = async (traitTypes, background, index) => {
   fs.writeFileSync(
     `${dir.outputs}/metadata/${index+1}.json`,
     JSON.stringify({
-      name: `panda ${index}`,
-      description: 'generative panda Art NFT',
+      name: `Panda #${index}`,
+      description: 'A Panda Who Codes',
       image: `ipfs://NewUriToReplace/${index}.png`,
       attributes: metaDrawableTraits
     }, null, 2),
